@@ -37,6 +37,7 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.btnSalvarPaciente = new System.Windows.Forms.Button();
+            this.btnCancelarCP = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -111,12 +112,24 @@
             this.btnSalvarPaciente.TabIndex = 8;
             this.btnSalvarPaciente.Text = "Salvar";
             this.btnSalvarPaciente.UseVisualStyleBackColor = true;
+            this.btnSalvarPaciente.Click += new System.EventHandler(this.btnSalvarPaciente_Click);
+            // 
+            // btnCancelarCP
+            // 
+            this.btnCancelarCP.Location = new System.Drawing.Point(168, 161);
+            this.btnCancelarCP.Name = "btnCancelarCP";
+            this.btnCancelarCP.Size = new System.Drawing.Size(96, 27);
+            this.btnCancelarCP.TabIndex = 9;
+            this.btnCancelarCP.Text = "Cancelar";
+            this.btnCancelarCP.UseVisualStyleBackColor = true;
+            this.btnCancelarCP.Click += new System.EventHandler(this.btnCancelarCP_Click);
             // 
             // Cadastrar_Paciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(291, 212);
+            this.Controls.Add(this.btnCancelarCP);
             this.Controls.Add(this.btnSalvarPaciente);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
@@ -144,5 +157,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button btnSalvarPaciente;
+        private System.Windows.Forms.Button btnCancelarCP;
     }
 }

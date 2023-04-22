@@ -38,5 +38,12 @@ namespace Terapia
             Cadastrar_Paciente Cadastrar = new Cadastrar_Paciente();
             Cadastrar.ShowDialog();
         }
+
+        private void consultasAgendadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 consultas = new Form2();
+            consultas.ShowDialog();
+
+        }
     }
 }

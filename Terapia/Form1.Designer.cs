@@ -33,12 +33,12 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.terapeutasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.atualizarCadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pacientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrarPacienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agendamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fazerAgendamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasAgendadasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.atualizarCadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,9 +71,15 @@
             // cadastrarToolStripMenuItem
             // 
             this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
-            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.cadastrarToolStripMenuItem.Text = "Cadastrar";
             this.cadastrarToolStripMenuItem.Click += new System.EventHandler(this.cadastrarToolStripMenuItem_Click);
+            // 
+            // atualizarCadastroToolStripMenuItem
+            // 
+            this.atualizarCadastroToolStripMenuItem.Name = "atualizarCadastroToolStripMenuItem";
+            this.atualizarCadastroToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.atualizarCadastroToolStripMenuItem.Text = "Atualizar Cadastro";
             // 
             // pacientesToolStripMenuItem
             // 
@@ -110,12 +116,7 @@
             this.consultasAgendadasToolStripMenuItem.Name = "consultasAgendadasToolStripMenuItem";
             this.consultasAgendadasToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
             this.consultasAgendadasToolStripMenuItem.Text = "Consultas Agendadas";
-            // 
-            // atualizarCadastroToolStripMenuItem
-            // 
-            this.atualizarCadastroToolStripMenuItem.Name = "atualizarCadastroToolStripMenuItem";
-            this.atualizarCadastroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.atualizarCadastroToolStripMenuItem.Text = "Atualizar Cadastro";
+            this.consultasAgendadasToolStripMenuItem.Click += new System.EventHandler(this.consultasAgendadasToolStripMenuItem_Click);
             // 
             // Form1
             // 

@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Terapia
 {
-    public partial class Cadastrar_Paciente : Form
+    public partial class Form2 : Form
     {
-        public Cadastrar_Paciente()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        private void btnCancelarCP_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        private void btnSalvarPaciente_Click(object sender, EventArgs e)
-        {
-            
         }
     }
 }
